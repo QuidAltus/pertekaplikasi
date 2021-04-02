@@ -1,0 +1,76 @@
+/* body {
+  background-image: url(../img/email-pattern.png);
+} */
+
+.container {
+  margin: auto;
+  background-image: url(../img/clouds-sky-blue-white.jpg);
+  width: 90%;
+}
+
+.header {
+  padding: 10px;
+  border-bottom: 3px solid lightskyblue;
+}
+
+.header .judul {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: lightslategrey;
+}
+
+.header a:hover {
+  background-color: black;
+  color: white;
+}
+
+.header form {
+  float: right;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+#customers a:link {
+  text-decoration: none;
+}
